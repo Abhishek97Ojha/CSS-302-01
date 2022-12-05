@@ -1,0 +1,94 @@
+body {
+    background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+    display: flex;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    background-color: burlywood;
+    margin: 25px 100px 15px 120px;
+    width: 65vw;
+    height: 112vh;
+}
+
+.heading {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.head {
+    margin-top: 5px;
+    /* border: 1px solid red; */
+    height: 33px;
+}
+
+blockquote {
+    margin-top: 0;
+    /* border: 2px solid red; */
+}
+
+hr {
+    border: 2px solid maroon;
+    width: 60vw;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    height: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+.menu {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.item {
+    /* border: 1px solid black ; */
+    display: inline-flex;
+    width: 50%;
+    margin: 2px;
+    font-weight:500;
+}
+
+.price {
+    /* border: 1px solid black; */
+    display: inline-block;
+    text-align: right;
+    width: 49%;
+    margin: 2px;
+    font-weight:500;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer{
+    /* border: 1px solid black; */
+    margin-top: 35px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.foot,a{
+    color: black;
+    font-weight: 500;
+}
